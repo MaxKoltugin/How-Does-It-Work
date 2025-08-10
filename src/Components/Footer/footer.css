@@ -54,6 +54,12 @@
     margin-bottom: 40px;
   }
 }
+@media (max-width: 410px) {
+  .feedback {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 340px) {
   .footer {
     height: 250px;

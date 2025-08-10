@@ -8,7 +8,7 @@ const Header = () => {
         <NavLink className="header-logo-group" to="">
           <img
             className="header-logo non-selectable"
-            src={"/logo.png"}
+            src={"https://maxkoltugin.github.io/How-Does-It-Work/logo.png"}
             alt=""
           />
         </NavLink>

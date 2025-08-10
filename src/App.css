@@ -5,6 +5,20 @@
   -ms-user-select: none;
 }
 
+/* Для всех ссылок-иконок и логотипа */
+img:focus,
+img:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background: none !important;
+}
+
+/* Для мобильных браузеров (убирает синий фон при тапе) */
+button,
+img {
+  -webkit-tap-highlight-color: transparent;
+}
+
 * {
   margin: 0;
   padding: 0;

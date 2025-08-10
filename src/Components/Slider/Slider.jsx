@@ -42,22 +42,37 @@ const Slider = () => {
         ]}
         loop={true}
         // navigation={true}
-        className="main-swiper"
+        className="main-swiper non-selectable"
       >
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 1" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/slide1.png"
+            alt="Product 1"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 2" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/slide2.png"
+            alt="Product 2"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 3" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/slide3.png"
+            alt="Product 3"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 4" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/slide4.png"
+            alt="Product 4"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 5" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/slide5.png"
+            alt="Product 5"
+          />
         </SwiperSlide>
       </Swiper>
 
@@ -80,22 +95,37 @@ const Slider = () => {
           Autoplay,
         ]}
         loop={true}
-        className="small-swiper"
+        className="small-swiper non-selectable"
       >
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 1" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/mini-slide1.png"
+            alt="Product 1"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 2" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/mini-slide2.png"
+            alt="Product 2"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 3" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/mini-slide3.png"
+            alt="Product 3"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 4" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/mini-slide4.png"
+            alt="Product 4"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/testImg.png" alt="Product 5" />
+          <img
+            src="https://maxkoltugin.github.io/How-Does-It-Work/slides/mini-slide5.png"
+            alt="Product 5"
+          />
         </SwiperSlide>
       </Swiper>
     </div>

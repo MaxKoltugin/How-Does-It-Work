@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/How-Does-It-Work/static/css/main.58e401d1.css",
+    "main.js": "/How-Does-It-Work/static/js/main.501d6e17.js",
+    "index.html": "/How-Does-It-Work/index.html",
+    "main.58e401d1.css.map": "/How-Does-It-Work/static/css/main.58e401d1.css.map",
+    "main.501d6e17.js.map": "/How-Does-It-Work/static/js/main.501d6e17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58e401d1.css",
+    "static/js/main.501d6e17.js"
+  ]
+}
