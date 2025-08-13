@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/How-Does-It-Work/static/css/main.e6ef2aac.css",
-    "main.js": "/How-Does-It-Work/static/js/main.c89871f6.js",
+    "main.css": "/How-Does-It-Work/static/css/main.d1110a75.css",
+    "main.js": "/How-Does-It-Work/static/js/main.e041c698.js",
     "index.html": "/How-Does-It-Work/index.html",
-    "main.e6ef2aac.css.map": "/How-Does-It-Work/static/css/main.e6ef2aac.css.map",
-    "main.c89871f6.js.map": "/How-Does-It-Work/static/js/main.c89871f6.js.map"
+    "main.d1110a75.css.map": "/How-Does-It-Work/static/css/main.d1110a75.css.map",
+    "main.e041c698.js.map": "/How-Does-It-Work/static/js/main.e041c698.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6ef2aac.css",
-    "static/js/main.c89871f6.js"
+    "static/css/main.d1110a75.css",
+    "static/js/main.e041c698.js"
   ]
 }
