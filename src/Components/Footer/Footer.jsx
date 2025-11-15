@@ -3,7 +3,7 @@ import "./footer.css";
 const Footer = () => {
   const shareData = {
     // title: "Как это устроенно?",
-    url: "https://maxkoltugin.github.io/How-Does-It-Work/",
+    url: "https://how-does-it-work.ru/",
   };
 
   const handleShareW = () => {
@@ -39,58 +39,65 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <div className="footer-logo-wrapper non-selectable">
-        <img
-          className="footer-logo non-selectable"
-          src={"https://maxkoltugin.github.io/How-Does-It-Work/logo-max.png"}
-          alt=""
-        />
-      </div>
-      <div className="feedback-wrapper">
-        <p className="feedback">
-          <span>Связаться со мной -</span>{" "}
-          <a href="mailto:dkoltugin@mail.ru" className="email">
-            dkoltugin@mail.ru
-          </a>
-        </p>
-      </div>
-      <div className="share-wrapper">
-        <p className="share-text">Поделиться</p>
-        <div className="share-buttons">
-          <button
-            className="vk-btn non-selectable"
-            title="share to vk"
-            onClick={handleShareVK}
-          >
-            <img
-              className="vk non-selectable"
-              src="https://maxkoltugin.github.io/How-Does-It-Work/icons/vk.svg"
-              alt="vk"
-            />
-          </button>
-          <button
-            className="wp-btn non-selectable"
-            title="share to whatsapp"
-            onClick={handleShareW}
-          >
-            <img
-              className="wp non-selectable"
-              src="https://maxkoltugin.github.io/How-Does-It-Work/icons/wp.svg"
-              alt="whatsapp"
-            />
-          </button>
-          <button
-            className="tg-btn non-selectable"
-            title="share to telegram"
-            onClick={handleShareTg}
-          >
-            <img
-              className="tg non-selectable"
-              src="https://maxkoltugin.github.io/How-Does-It-Work/icons/tg.svg"
-              alt="tg"
-            />
-          </button>
+      <div className="footer-contact-wrapper">
+        <div className="footer-logo-wrapper non-selectable">
+          <img
+            className="footer-logo non-selectable"
+            src={"/logo-max.png"}
+            alt=""
+          />
         </div>
+        <div className="feedback-wrapper">
+          <p className="feedback">
+            <span>Связаться со мной -&nbsp;</span>{" "}
+            <a href="mailto:dkoltugin@mail.ru" className="email">
+              dkoltugin@mail.ru
+            </a>
+          </p>
+        </div>
+        <div className="share-wrapper">
+          <p className="share-text">Поделиться</p>
+          <div className="share-buttons">
+            <button
+              className="vk-btn non-selectable"
+              title="share to vk"
+              onClick={handleShareVK}
+            >
+              <img
+                className="vk non-selectable"
+                src="/icons/vk.svg"
+                alt="vk"
+              />
+            </button>
+            <button
+              className="wp-btn non-selectable"
+              title="share to whatsapp"
+              onClick={handleShareW}
+            >
+              <img
+                className="wp non-selectable"
+                src="/icons/wp.svg"
+                alt="whatsapp"
+              />
+            </button>
+            <button
+              className="tg-btn non-selectable"
+              title="share to telegram"
+              onClick={handleShareTg}
+            >
+              <img
+                className="tg non-selectable"
+                src="/icons/tg.svg"
+                alt="tg"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="footer-data-publisher">
+        <p>
+          <span className="publisher-text">Дата публикации</span> - 12.02.2025
+        </p>
       </div>
     </div>
   );

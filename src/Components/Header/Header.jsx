@@ -8,12 +8,12 @@ const Header = () => {
         <NavLink className="header-logo-group" to="">
           <img
             className="header-logo non-selectable"
-            src={"https://maxkoltugin.github.io/How-Does-It-Work/logo.png"}
+            src={"/logo.png"}
             alt=""
           />
         </NavLink>
         <div className="project-name-wrapper">
-          <h3 className="project-name non-selectable">как это устроенно?</h3>
+          <h3 className="project-name non-selectable">как это устроено?</h3>
         </div>
       </div>
     </div>

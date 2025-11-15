@@ -15,6 +15,10 @@ img:active {
 
 /* Для мобильных браузеров (убирает синий фон при тапе) */
 button,
+.card-content,
+.card-link,
+.card,
+.header-logo-group,
 img {
   -webkit-tap-highlight-color: transparent;
 }
@@ -22,6 +26,10 @@ img {
 * {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .App {

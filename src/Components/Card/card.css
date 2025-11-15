@@ -1,14 +1,18 @@
 .card {
+  display: flex;
+  flex-direction: column;
   width: 288px;
+  height: auto;
   border-radius: 15px;
   background-color: #c777f5;
   overflow: hidden;
-  margin: 0 10px 20px;
+  margin: 10px 10px 20px;
   flex-shrink: 0;
   cursor: pointer;
-  will-change: transform, opacity, height, margin;
-  border: 1px solid black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.458);
+  transition: transform 0.03s ease, box-shadow 0.3s ease;
 }
+
 .card-img-wrapper {
   display: flex;
   justify-content: center;
@@ -17,13 +21,10 @@
   height: 170px;
   border-radius: 15px 15px 0px 0px;
   background-color: #ffd900;
-  border-bottom: 1px solid black;
   border-radius: 15px;
 }
 
 .card-img {
-  /* width: 100%;
-  height: 100%; */
   border-radius: 15px 15px 0px 0px;
 }
 
